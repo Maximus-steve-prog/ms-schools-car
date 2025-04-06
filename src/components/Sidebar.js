@@ -1,13 +1,10 @@
 import React from 'react';
+import Nav from './Nav';
 
 function Sidebar() {
   return (
-    <div className="sidebar">
-      <ul>
-        <li><a href="#Dashboard">Dashboard</a></li>
-        <li><a href="#Settings">Settings</a></li>
-        <li><a href="#profile">Profile</a></li>
-      </ul>
+    <div className="fixed-sidebar">
+        <Nav />
     </div>
   );
 }
